@@ -1,0 +1,66 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #203f79, #00a9e8);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#walletContainer {
+    width: 520px;
+    padding: 30px;
+    background: linear-gradient(to right, #4169a1, #208ec5);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#walletContainer h1{
+
+ color: white;
+    margin-bottom: 35px;
+}
+
+#walletContainer input{
+
+ width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+
+}
+
+#walletContainer button{
+
+     width: 100%;
+    padding: 16px;
+    margin-bottom: 14px;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#addMoneyButton{
+
+       background-color: #00e5d1;
+    color: #003b43;
+}
+
+#fraudCheckButton{
+     background-color: #ffb43f;
+    color: black;
+}
+
+#walletContainer h2{
+
+     color: white;
+    margin-top: 20px;
+}

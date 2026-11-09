@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>MyBanklogin</title>
+</head>
+<body>
+    <div id="loginContainer">
+    <button id="signInTab">Sign in</button>
+<button id="registerTab">Register</button>
+<br>
+<div id="signInSection">
+    <h2>Sign In</h2>
+<label>Username</label>
+<input type="text" id="signInUsername" placeholder="Enter Username">
+<br>
+
+<label>Password</label>
+<div class="password-container">
+
+<input type="password" id="signInPassword" placeholder="Enter Password">
+<button type="button" id="toggleSignInPassword">👁️</button>
+</div>
+<br>
+
+<button id="signInButton">Sign In</button>
+<p id="signInMessage"></p>
+</div>
+
+<div id="registerSection">
+    <h2>Register</h2>
+       <label>Username</label>
+<input type="text"  id="registerUsername" placeholder="Enter Username">
+<br>
+
+<label>Password</label>
+<div class="password-container">
+
+<input type="password"  id="registerPassword" placeholder="Enter Password">
+<button type="button" id="toggleRegisterPassword">👁️</button>
+</div>
+<br>
+
+<button  id="registerButton">Register</button> 
+<p id="registerMessage"></p>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital wallet - My Bank</title>
+<link rel="stylesheet" href="wallet.css">
+</head>
+<body>
+<div id="walletContainer">
+<h1>Digital Wallet</h1>
+<input type="number" id="walletid" placeholder="Wallet ID" min="1" step="1" required></input>
+<input type="number" id="amount" placeholder="Amount" min="0.01" step="any" required></input>
+
+<button id="addMoneyButton">Add Money</button>
+<button id="fraudCheckButton">AI Fraud Check</button>
+
+<h2>Fraud Detection Result</h2>
+<p id="fraudResult"></p>
+</div>
+
+</body>
+<script src="wallet.js"></script>
+
+</html>
